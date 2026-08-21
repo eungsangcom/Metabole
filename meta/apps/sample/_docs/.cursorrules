@@ -1,0 +1,5 @@
+# sample app — Cursor rules
+
+- Domain에 FastAPI/Pydantic 금지
+- Router는 Schema→DTO 매핑만
+- 신규 기능은 sample 레이어 패턴을 복제

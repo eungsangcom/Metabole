@@ -1,0 +1,10 @@
+# Metabole — Cursor Rules
+
+- 백엔드 디렉터리: `meta/` · 프론트 디렉터리: `bole/`
+- 헥사고날 + 클린 + DDD. Domain은 바깥을 import하지 않는다.
+- 요청 범위 밖 추상화·리팩터링 금지 (AGENTS.md).
+- 백엔드: `meta/_claude/CLAUDE.md` · 프론트: `bole/_claude/CLAUDE.md`
+- 신규 백엔드 앱은 `meta/apps/sample` 구조를 복사한다.
+- 테스트: `cd meta && PYTHONPATH=apps python -m pytest apps/{app}/tests -q`
+- 프론트: `cd bole && pnpm dev` · import는 `@/` alias
+- 백엔드 import는 `from sample...` (`apps.` 접두사 금지)
