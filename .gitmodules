@@ -1,0 +1,6 @@
+[submodule "meta"]
+	path = meta
+	url = https://github.com/eungsangcom/com.metabole.api.git
+[submodule "bole"]
+	path = bole
+	url = https://github.com/eungsangcom/com.metabole.www.git

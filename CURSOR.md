@@ -2,6 +2,10 @@
 
 상세 규범: [CLAUDE.md](./CLAUDE.md) · [AGENTS.md](./AGENTS.md)
 
+## Submodules
+
+Init with `git submodule update --init --recursive` (`meta`→api, `bole`→www).
+
 ## 문서 계층
 
 | 범위 | 경로 |

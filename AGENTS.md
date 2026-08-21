@@ -29,6 +29,10 @@
 
 ---
 
+## Submodules
+
+`meta/` → [com.metabole.api](https://github.com/eungsangcom/com.metabole.api), `bole/` → [com.metabole.www](https://github.com/eungsangcom/com.metabole.www). Clone with `--recurse-submodules`.
+
 ## 문서 계층
 
 | 범위 | 규칙 |

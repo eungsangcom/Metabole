@@ -2,6 +2,10 @@
 
 헥사고날 + 클린 + DDD 모듈러 모놀리식.
 
+## Submodules
+
+`meta/` and `bole/` are git submodules (`com.metabole.api` / `com.metabole.www`), same pattern as com.eungsang.
+
 ## 스택
 
 | 영역 | 디렉터리 | 대응 (com.eungsang) | 기술 |

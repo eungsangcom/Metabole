@@ -4,18 +4,39 @@
 
 `com.eungsang` 구조 대응: **meta** = `eungsang`(백엔드), **bole** = `jebbi`(프론트).
 
+## Clone
+
+```bash
+git clone --recurse-submodules https://github.com/eungsangcom/Metabole.git
+```
+
+이미 clone했다면:
+
+```bash
+git submodule update --init --recursive
+```
+
+## Submodules
+
+| path | remote |
+|------|--------|
+| `meta/` | [com.metabole.api](https://github.com/eungsangcom/com.metabole.api) — FastAPI backend |
+| `bole/` | [com.metabole.www](https://github.com/eungsangcom/com.metabole.www) — Next.js frontend |
+
+`com.eungsang`와 동일: `eungsang`→api, `jebbi`→www.
+
 ## 구조
 
 ```text
 Metabole/
 ├── AGENTS.md / CLAUDE.md / CURSOR.md / .cursorrules
 ├── docs/
-├── meta/                 # FastAPI 백엔드 (eungsang 대응)
+├── meta/                 # submodule → com.metabole.api
 │   ├── main.py
 │   ├── core/
 │   ├── apps/sample/      # 헥사고날 템플릿
 │   └── _claude/
-└── bole/                 # Next.js 프론트 (jebbi 대응)
+└── bole/                 # submodule → com.metabole.www
     ├── app/
     ├── components/
     ├── lib/backend-api.ts
